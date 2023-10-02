@@ -1,0 +1,122 @@
+body {
+  padding: 0vw 10vw;
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  background: #ecfaef;
+  color: #000;
+  color: #2b7235;
+}
+
+div {
+  /* Card layout */
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+a:link {
+  color: rgb(46, 169, 52);
+  transition: transform 0.2s;
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(24, 57, 10);
+}
+a:hover {
+  transform: scale(1.5);
+  /* color: #03f; */
+}
+a :active {
+  color: #f3f;
+}
+.logo {
+  font-size: 36px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+#logo-img {
+  height: 36px;
+}
+.navlist li {
+  display: inline;
+  list-style-type: circle;
+  padding-right: 20px;
+  border-left: 2px solid #167b18;
+  line-height: 1.1em;
+  margin: 0 0.5em 0 -0.5em;
+  padding: 0 0.5em 0 0.5em;
+  font-weight: 600;
+}
+
+.box {
+  margin: 10px;
+  padding: 10px;
+  /* background-color: #666; */
+  border-width: 1px;
+  /* border-color: black;
+  border-style: solid; */
+  clear: both;
+}
+.nav {
+  margin: 10px;
+  padding: 10px;
+  /* background-color: #999; */
+
+  /* border-color: black;
+  border-style: solid; */
+}
+.left {
+  width: 20%;
+  margin: 10px;
+  padding: 10px;
+  /* background-color: #ccc; */
+  border-width: 1px;
+  /* border-color: black;
+  border-style: solid; */
+  float: left;
+}
+.centre {
+  width: 47%;
+  margin: 10px;
+  padding: 10px;
+  /* background-color: #ccc; */
+  border-width: 1px;
+  /* border-color: black;
+  border-style: solid; */
+  float: left;
+}
+.right {
+  width: 20%;
+  margin: 10px;
+  padding: 10px;
+  /* background-color: #ccc; */
+  border-width: 1px;
+  /* border-color: black;
+  border-style: solid; */
+  float: right;
+}
+.lower_nav {
+  margin: 10px;
+  padding: 10px;
+  /* background-color: #999; */
+  border-width: 1px;
+  /* border-color: black;
+  border-style: solid; */
+  clear: both;
+}
+.legal {
+  margin: 10px;
+  padding: 10px;
+  /* background-color: #999; */
+  border-width: 1px;
+  /* border-color: black;
+  border-style: solid; */
+  float: none;
+  clear: both;
+}
+
+.deadnav {
+  border-bottom: 3px solid #38d770;
+}
